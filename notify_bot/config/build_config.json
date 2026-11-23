@@ -1,0 +1,205 @@
+{
+  "toolchain_version": {
+    "note": "MSVC compiler version observed in CMakeCXXCompiler.cmake and successful Release build",
+    "state": "measured",
+    "source_build": "MSVC 19.44.35230.0; Visual Studio 17 2022; Windows SDK 10.0.26100.0",
+    "kind": "literal",
+    "value": "19.44.35230.0"
+  },
+  "cmake_generator": {
+    "note": "CMAKE_GENERATOR observed in build/CMakeCache.txt",
+    "state": "measured",
+    "source_build": "MSVC 19.44.35230.0; Visual Studio 17 2022; Windows SDK 10.0.26100.0",
+    "kind": "literal",
+    "value": "Visual Studio 17 2022"
+  },
+  "sdk_version": {
+    "note": "WindowsTargetPlatformVersion observed in generated project",
+    "state": "measured",
+    "source_build": "MSVC 19.44.35230.0; Visual Studio 17 2022; Windows SDK 10.0.26100.0",
+    "kind": "literal",
+    "value": "10.0.26100.0"
+  },
+  "failure_threshold": {
+    "source_build": null,
+    "note": "derived from requested behavior; range 3..7",
+    "state": "derived",
+    "value": 5,
+    "kind": "literal"
+  },
+  "on_threshold": {
+    "source_build": null,
+    "note": "pause queue after consecutive failures; manual resume only",
+    "state": "derived",
+    "value": "pause_queue",
+    "kind": "literal"
+  },
+  "max_workers": {
+    "source_build": null,
+    "note": "default worker count; range 1..256",
+    "state": "derived",
+    "value": 8,
+    "kind": "literal"
+  },
+  "connect_timeout_ms": {
+    "value": 5000,
+    "state": "configured",
+    "source_build": null,
+    "kind": "literal",
+    "note": "positive timeout"
+  },
+  "retry_base_ms": {
+    "value": 500,
+    "state": "configured",
+    "source_build": null,
+    "kind": "literal",
+    "note": "positive delay"
+  },
+  "max_photo_bytes": {
+    "value": 10000000,
+    "state": "derived",
+    "source_build": null,
+    "kind": "literal",
+    "note": "internal limit, not an API limit claim"
+  },
+  "admin_chat": {
+    "source_build": null,
+    "note": "not configured or measured",
+    "state": "unset",
+    "value": null,
+    "kind": "client_field"
+  },
+  "event_sink": {
+    "source_build": null,
+    "note": "not configured or measured",
+    "state": "unset",
+    "value": null,
+    "kind": "client_field"
+  },
+  "premium_flag_field": {
+    "source_build": null,
+    "note": "not configured or measured",
+    "state": "unset",
+    "value": null,
+    "kind": "client_field"
+  },
+  "custom_emoji_document_id": {
+    "source_build": null,
+    "note": "not configured or measured",
+    "state": "unset",
+    "value": null,
+    "kind": "client_field"
+  },
+  "entity_unit": {
+    "source_build": null,
+    "note": "not configured or measured",
+    "state": "unset",
+    "value": null,
+    "kind": "client_field"
+  },
+  "session_provider": {
+    "source_build": null,
+    "note": "not configured or measured",
+    "state": "unset",
+    "value": null,
+    "kind": "client_field"
+  },
+  "dpi_scale": {
+    "source_build": null,
+    "note": "not configured or measured",
+    "state": "unset",
+    "value": null,
+    "kind": "client_field"
+  },
+  "probe_host": {
+    "value": null,
+    "state": "unset",
+    "source_build": null,
+    "kind": "literal",
+    "note": "no egress probe configured"
+  },
+  "socks_winhttp_mapping": {
+    "value": null,
+    "state": "unset",
+    "source_build": null,
+    "kind": "client_field",
+    "note": "not verified on target SDK"
+  },
+  "security_flags": {
+    "value": null,
+    "state": "unset",
+    "source_build": null,
+    "kind": "client_field",
+    "note": "must verify against target SDK headers"
+  },
+  "license_key": {
+    "value": null,
+    "state": "unset",
+    "source_build": null,
+    "kind": "literal",
+    "note": "set only after issuance"
+  },
+  "egress_check_url": {
+    "value": null,
+    "state": "unset",
+    "source_build": null,
+    "kind": "literal",
+    "note": "no egress check URL configured"
+  },
+  "api_base": {
+    "note": "requires user-supplied endpoint or observed API response",
+    "kind": "client_field",
+    "value": null,
+    "source_build": null,
+    "state": "unset"
+  },
+  "success_pattern": {
+    "note": "requires user-supplied endpoint or observed API response",
+    "kind": "client_field",
+    "value": null,
+    "source_build": null,
+    "state": "unset"
+  },
+  "dist_notify_bot_sha256": {
+    "value": "8010a5e98b041eb5b16e01cb41e8b240f315b3aa26b06ef9a25d420142ebc6ac",
+    "state": "measured",
+    "source_build": "MSVC 19.44.35230.0; Visual Studio 17 2022; Windows SDK 10.0.26100.0",
+    "kind": "literal",
+    "note": "SHA-256 measured after successful Release build, ctest, and dist copy"
+  },
+  "card_count": {
+    "kind": "literal",
+    "note": "fixed GUI card count",
+    "source_build": null,
+    "value": 5,
+    "state": "derived"
+  },
+  "card_labels": {
+    "kind": "client_field",
+    "note": "labels are intentionally unspecified",
+    "source_build": null,
+    "value": null,
+    "state": "unset"
+  },
+  "phone_input_state": {
+    "kind": "client_field",
+    "note": "visual only; no input is read",
+    "source_build": null,
+    "value": null,
+    "state": "unset"
+  },
+  "code_input_state": {
+    "kind": "client_field",
+    "note": "visual only; no input is read",
+    "source_build": null,
+    "value": null,
+    "state": "unset"
+  },
+  "connect_action": {
+    "kind": "client_field",
+    "note": "disabled; no network action",
+    "source_build": null,
+    "value": null,
+    "state": "unset"
+  }
+}
